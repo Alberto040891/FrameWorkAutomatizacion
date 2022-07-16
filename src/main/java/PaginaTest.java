@@ -26,7 +26,7 @@ public class PaginaTest {
         //WebElement buscar = webdriver.findElement(By.xpath("//body/div[1]/div[3]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/input[1]"));
         WebElement buscar = webdriver.findElement(By.name("q"));
         buscar.clear();
-        buscar.sendKeys("gatos bgjfgclkbnxclvnbcxvnbcvnzmbkncdv");
+        buscar.sendKeys("gatos ");
         buscar.submit();
         webdriver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
        // tituloPagina = webdriver.getTitle();
